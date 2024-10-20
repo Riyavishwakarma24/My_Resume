@@ -4,13 +4,13 @@ Welcome to my GitHub resume repository! Here, you'll find my resume, along with 
 Aspiring software developer and current Bachelor of Computer Applications (BCA) student with a strong foundation in programming, web development. 
 Actively seeking internship opportunities to apply my academic knowledge in a professional setting and to expand my technical expertise.
 # 📚 Skills
---> HTML5, CSS3, JavaScript
---> Java
---> C
---> Responsive Web Design
---> Git & GitHub
---> MySQL
---> Visual Studio Code, IntelliJ IDEA
+* HTML5, CSS3, JavaScript
+* Java
+* C
+* Responsive Web Design
+* Git & GitHub
+* MySQL
+* Visual Studio Code, IntelliJ IDEA
 # 💻 Projects
 👉🏻 NOU e-Gyan Portal clone
 Developed a functional clone of NOU e-gyan with responsive design and user authentication.
