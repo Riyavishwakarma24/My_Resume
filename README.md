@@ -25,9 +25,9 @@ Developed a dynamic Text converter website using web technologies HTML,CSS and J
 Softpro India Computer Technology Pvt. Ltd. - Two months of summer training (2024)
 Worked on Nou e-Gyan Portal using HTML,CSS,JS,MySql and Java[for backend].
 # 📫 How to Reach Me
-Email: riiyavishwakarma24@gmail.com
-LinkedIn: https://www.linkedin.com/in/riya-vishwakarma-811585322
-Portfolio: [Link to personal website or portfolio]
+* Email: riiyavishwakarma24@gmail.com
+* LinkedIn: https://www.linkedin.com/in/riya-vishwakarma-811585322
+* Portfolio: [Link to personal website or portfolio]
 
 
 
