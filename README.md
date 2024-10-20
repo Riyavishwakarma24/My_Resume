@@ -12,14 +12,14 @@ Actively seeking internship opportunities to apply my academic knowledge in a pr
 * MySQL
 * Visual Studio Code, IntelliJ IDEA
 # 💻 Projects
-👉🏻 NOU e-Gyan Portal clone
+*  NOU e-Gyan Portal clone
 Developed a functional clone of NOU e-gyan with responsive design and user authentication.
 Technologies used:HTML,CSS,JavaScript,Java(for Backend) and SMS API.
-👉🏻 Quiz Website
+*  Quiz Website
 This Project is a simple Quiz Website using HTML,CSS and JavaScript.
-👉🏻 Personal Portfolio
+*  Personal Portfolio
 Created a personal portfolio using HTML, CSS, and JavaScript to showcase my projects and skills.
-👉🏻 Text to Voice Converter
+*  Text to Voice Converter
 Developed a dynamic Text converter website using web technologies HTML,CSS and JavaScript.
 # 🏆 Training & Certifications
 Softpro India Computer Technology Pvt. Ltd. - Two months of summer training (2024)
