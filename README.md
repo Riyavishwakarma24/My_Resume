@@ -29,7 +29,7 @@ Developed a dynamic Text converter website using web technologies HTML,CSS and J
 Worked on Nou e-Gyan Portal using HTML,CSS,JS,MySql and Java[for backend].
 * Pantech.ai — Web Development Intern
 Feb 2025 – May 2025
-* Completed a web development internship focused on building interactive and responsive web pages using core web technologies.
+Completed a web development internship focused on building interactive and responsive web pages using core web technologies.
 # 📫 How to Reach Me
 * Email: riiyavishwakarma24@gmail.com
 * LinkedIn: https://www.linkedin.com/in/riya-vishwakarma-811585322
