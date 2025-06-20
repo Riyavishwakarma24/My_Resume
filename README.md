@@ -25,11 +25,11 @@ Created a personal portfolio using HTML, CSS, and JavaScript to showcase my proj
 *  Text to Voice Converter :
 Developed a dynamic Text converter website using web technologies HTML,CSS and JavaScript.
 # 🏆 Training & Certifications
-Softpro India Computer Technology Pvt. Ltd. - Two months of summer training (2024)
+* Softpro India Computer Technology Pvt. Ltd. - Two months of summer training (2024)
 Worked on Nou e-Gyan Portal using HTML,CSS,JS,MySql and Java[for backend].
-# Pantech.ai — Web Development Intern
+Pantech.ai — Web Development Intern
 Feb 2025 – May 2025
-Completed a web development internship focused on building interactive and responsive web pages using core web technologies.
+* Completed a web development internship focused on building interactive and responsive web pages using core web technologies.
 # 📫 How to Reach Me
 * Email: riiyavishwakarma24@gmail.com
 * LinkedIn: https://www.linkedin.com/in/riya-vishwakarma-811585322
