@@ -1,318 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Personal Profile Page of Sanjay">
-        <title>Riya's Profile</title>
-        <link rel="icon" href="img/icon.png" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="script.js" defer></script>
-    </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Riya Vishwakarma - Resume</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 13.5px;
+      line-height: 1.4;
+      background-color: #fff;
+      color: #000;
+      margin: 20px 40px;
+    }
 
-    <body>
-        <nav class="navbar">
-            <div class="navbar-container">
-                <h2>Riya Vishwakarma</h2>&nbsp&nbsp&nbsp
-                <h4>From India</h4>
-                <div class="nav-toggle"><i class="fas fa-bars"></i></div>
-            </div>
-            <div class="nav-menu">           
-            <!--<a href="index.html">Home</a>
-                <a href="contact.html">Contact Me</a> -->
-                <a href="img/Riya Vishwakarma - Resume.pdf" class="resume-button" download>Download Resume</a>
-                <div id="dark-mode-toggle" class="dark-mode-toggle">
-                    <i class="fas fa-moon"></i>
-                </div>
-            </div>
-        </nav>
+    .container {
+      max-width: 800px;
+      margin: auto;
+    }
 
-        <header>
-            <img src="img/riya.webp" alt="Riya's pic">
-            <h1>Hello, I am Riya, a <span class="about-me"></span></h1>
-            <p>Proactive and results-driven full-stack developer with expertise in building and optimizing web applications using HTML, CSS,
-                JavaScript, and Java. Demonstrated ability to design responsive interfaces, implement backend functionality, and collaborate 
-               team-based projects to achieve technical excellence.</p>
-        </header>
+    .header {
+      text-align: center;
+      margin-bottom: 10px;
+    }
 
-        <div class="content-container">
+    .header h1 {
+      font-size: 22px;
+      margin: 0;
+    }
 
-            <section>
-                <h2>My Technical Skills</h2>
-                <div class="skills-list">
-                    <ul class="skills-list">
-                        <li>Web Development</li>
-                        <li>Advance Java</li>
-                        <li>Responsive Web Design</li>
-                        <li>Git & GitHub</li>
-                    </ul>
-                </div>
-            </section>
-            <hr>
-    
-            <section class="horizontal-scroll">
-                <div class="icon-container">
-                    <img src="img/1.png" alt="Icon 1">
-                    <img src="img/2.png" alt="Icon 2">
-                    <img src="img/3.png" alt="Icon 3">
-                    <img src="img/4.png" alt="Icon 4">
-                    <img src="img/5.png" alt="Icon 5">
-                    <img src="img/6.png" alt="Icon 6">
-                    <img src="img/7.jpg" alt="Icon 7">
-                    <img src="img/8.png" alt="Icon 8">
-                    <img src="img/apache.jpg" alt="icon 9">
-                </div>
-            </section>
-            <hr>
+    .contact-line {
+      font-size: 12.5px;
+      margin-top: 6px;
+      color: #333;
+    }
 
-            <section id="programming-languages">
-                <h2>Programming Languages</h2>
-                <div class="skill">
-                    <p>JavaScript</p>
-                    <div class="progress-bar" data-progress="60"></div>
-                </div>
-                <div class="skill">
-                    <p>HTML</p>
-                    <div class="progress-bar" data-progress="90"></div>
-                </div>
-                <div class="skill">
-                    <p>CSS</p>
-                    <div class="progress-bar" data-progress="70"></div>
-                </div>
-            </section>
-            <hr>      
+    a {
+      color: #000;
+      text-decoration: none;
+    }
 
-            <section>
-                <h2>My Projects</h2>
-                <p>Take a look at some of my works.</p>
-                <section id="projects">
-                    <div class="project-thumbnail">
-                        <div class="thumbnail-content">
-                            <img src="img/egyan.jpg" alt="Project 1">
-                            <h3>Nou e-Gyan Portal </h3>
-                            <p>Developed a functional NOU e-gyan with responsive design and user authentication.</p>
-                            <a href="https://riyavishwakarma24.github.io/Nou-e-Gyan_Clone/" class="btn">Know More</a>
-                        </div>
-                    </div>
-                    <div class="project-thumbnail">
-                        <div class="thumbnail-content">
-                            <img src="img/quizz.jpg" alt="Project 1">
-                            <h3>Quiz Website</h3>
-                            <p>The quiz tests users' knowledge of various web technologies such as HTML,CSS & JavaScript</p>
-                            <a href="https://riyavishwakarma24.github.io/Quiz_App/" class="btn">Know More</a>
-                        </div>
-                    </div>
-                    <div class="project-thumbnail">
-                        <div class="thumbnail-content">
-                            <img src="img/bmi1.png" alt="Project 1">
-                            <h3>BMI Calculator </h3>
-                            <p>A BMI calculator web app that determines Body Mass Index based on user input</p>
-                            <a href=" https://riyavishwakarma24.github.io/BMI_Calculator/" class="btn">Know More</a>
-                        </div>
-                    </div>   
-                   <!--<div class="project-thumbnail">
-                        <div class="thumbnail-content">
-                            <img src="img/text.png" alt="Project 1">
-                            <h3>Text to Voice Converter</h3>
-                            <p>A web app that converts text into speech using HTML, CSS, and JavaScript.</p>
-                            <a href=" https://riyavishwakarma24.github.io/Text_Converter/" class="btn">Know More</a>
-                        </div>
-                    </div> -->                
-                </section>
-                <hr>
-                <section id="experience">
-                    <h2>My Experience</h2>
-                    <p><span>July 2024 – August 2024</span><br>Web Development Trainee at Softpro India (Advanced Java)</p><br>
-<p><span>February 2025 – May 2025</span><br>Web Development Trainee at Pantech.ai (Web Development)</p>
+    a:hover {
+      text-decoration: underline;
+    }
 
-                </section>
-                <hr>
-    
-            
-            <section>
-                <h2>Contact Me</h2>
-                <form name="submit-to-google-sheet">
-                    <div class="form-group">
-                        <label for="name">Name:</label>
-                        <input type="text" id="name" name="name" placeholder="Your Name">
-                    </div>
-                    
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email" placeholder="Your Email">
-                    </div>
-            
-                    <div class="form-group">
-                        <label for="message">Message:</label>
-                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
-                    </div>
-            
-                    <button type="submit">Send Message</button>                
-                </form>
-            </section>
-            <hr>
+    h2 {
+      font-size: 15px;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 3px;
+      margin-top: 18px;
+      margin-bottom: 8px;
+    }
 
-            <section>
-                <h2>Contact Information</h2>
-                <p>Let's connect!</p>
-                <a href="mailto:riiyavishwakarma24@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
-                <a href="https://www.linkedin.com/in/riya-vishwakarma-811585322" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
-                <a href="https://github.com/Riyavishwakarma24" class="icon-link github-icon">
-                    <i class="fa-brands fa-github"></i></a>
-            </section>
-        </div>
-        <footer>
-            <p>&copy; 2025 Copyright. Built by Riya Vishwakarma.</p>
-        </footer>
+    p, li {
+      font-size: 13px;
+      margin: 2px 0;
+    }
 
+    ul {
+      padding-left: 18px;
+      margin-top: 4px;
+    }
 
-        <!-- Project Information Modal -->
-        <!-- Project Information Modal -->
-       <!-- <div id="projectModal1" class="modal" style="display: none;">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Project Title 1</h2>
-                <hr>
-                <div class="modal-body">
-                    <div class="modal-row">
-                        <div class="column description">
-                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
-                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="column image-carousel">
-                            <div class="carousel-container">
-                                <div class="carousel-slide">
-                                    <img src="img/1.png" alt="Project Image 1">
-                                    <img src="img/2.png" alt="Project Image 2">
-                                    <img src="img/3.png" alt="Project Image 3">
-                                </div>
-                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-row">
-                        <div class="column">
-                            <h3>Project Details</h3>
-                            <ul>
-                                <li>Utilizes ROS for managing robot software components.</li>
-                                <li>Incorporates machine learning for traffic sign recognition.</li>
-                                <li>Features real-time obstacle detection using LIDAR.</li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h3>Project Video</h3>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    .job-title {
+      font-weight: bold;
+      font-size: 13.5px;
+    }
 
+    .job-date {
+      font-size: 12px;
+      color: #555;
+      margin-bottom: 3px;
+    }
 
+    .project-title {
+      font-weight: bold;
+    }
 
-        <div id="projectModal2" class="modal" style="display: none;">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Project Title 2</h2>
-                <hr>
-                <div class="modal-body">
-                    <div class="modal-row">
-                        <div class="column description">
-                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
-                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="column image-carousel">
-                            <div class="carousel-container">
-                                <div class="carousel-slide">
-                                    <img src="img/1.png" alt="Project Image 4">
-                                    <img src="img/1.png" alt="Project Image 5">
-                                    <img src="img/1.png" alt="Project Image 6">
-                                </div>
-                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-row">
-                        <div class="column">
-                            <h3>Project Details</h3>
-                            <ul>
-                                <li>Utilizes ROS for managing robot software components.</li>
-                                <li>Incorporates machine learning for traffic sign recognition.</li>
-                                <li>Features real-time obstacle detection using LIDAR.</li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h3>Project Video</h3>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    .tech-used {
+      font-style: italic;
+      color: #555;
+    }
 
+    .education-detail {
+      font-weight: bold;
+    }
 
-        <div id="projectModal3" class="modal" style="display: none;">
-            <div class="modal-content">
-                <span class="close">&times;</span>
-                <h2>Project Title 3</h2>
-                <hr>
-                <div class="modal-body">
-                    <div class="modal-row">
-                        <div class="column description">
-                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
-                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
-                        </div>
-                        <div class="column image-carousel">
-                            <div class="carousel-container">
-                                <div class="carousel-slide">
-                                    <img src="img/3.png" alt="Project Image 7">
-                                    <img src="img/2.png" alt="Project Image 8">
-                                    <img src="img/1.png" alt="Project Image 9">
-                                </div>
-                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
-                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-row">
-                        <div class="column">
-                            <h3>Project Details</h3>
-                            <ul>
-                                <li>Utilizes ROS for managing robot software components.</li>
-                                <li>Incorporates machine learning for traffic sign recognition.</li>
-                                <li>Features real-time obstacle detection using LIDAR.</li>
-                            </ul>
-                        </div>
-                        <div class="column">
-                            <h3>Project Video</h3>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        </div>
-                    </div>
+    @media print {
+      body {
+        margin: 0.5in;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Riya Vishwakarma</h1>
+      <div class="contact-line">
+        Email: riiyavishwakarma24@gmail.com |
+        Phone: +91 9369735941 |
+        Location: Lucknow, UP, India<br>
+        LinkedIn:
+        <a href="https://www.linkedin.com/in/riya-vishwakarma-811585322" target="_blank">
+          linkedin.com/in/riya-vishwakarma-811585322
+        </a> |
+        GitHub:
+        <a href="https://github.com/Riyavishwakarma24" target="_blank">
+          github.com/Riyavishwakarma24
+        </a>
+      </div>
+    </div>
 
-                </div>
-            </div>
-        </div>  -->
-        <script>
-            const scriptURL = 'https://script.google.com/macros/s/AKfycby_rf2A4sqZl7Wpzp0jVnpM0ew2AdL1mq5MvAhXVffoQFtFSds2Gjzy5bXPiZUNTjwAEg/exec'
-            const form = document.forms['submit-to-google-sheet']
-            const msg=document.getElementById(msg)
-          
-            form.addEventListener('submit', e => {
-              e.preventDefault()
-              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => {
-                  msg.innerHTML="Message sent successfully"
-                  setTimeout(function(){
-                    msg.innerHTML=""
-                  },5000) 
-                  form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-            })
-          </script>
-    </body>
+    <h2>Professional Summary</h2>
+    <p>
+      Motivated Full Stack Developer with hands-on experience in HTML, CSS, JavaScript, Java, and Spring Boot. Skilled in RESTful APIs, MySQL, PostgreSQL, and UI/UX design principles. Strong collaborator with a focus on clean code and user-friendly experiences.
+    </p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li><strong>Languages:</strong> JavaScript (ES6+), HTML5, CSS3, Java, SQL</li>
+      <li><strong>Frameworks:</strong> Spring Boot, Bootstrap</li>
+      <li><strong>Databases:</strong> MySQL, PostgreSQL, SQL Server</li>
+      <li><strong>Tools:</strong> GitHub, Postman, VS Code, Apache NetBeans</li>
+      <li><strong>Soft Skills:</strong> Communication, Teamwork, Creativity</li>
+    </ul>
+
+    <h2>Experience</h2>
+    <div class="job-title">Intern – Pantech.ai</div>
+    <div class="job-date">Feb 2025 – May 2025</div>
+    <ul>
+      <li>Supported AI model development and data preprocessing for real-world apps.</li>
+      <li>Improved model performance through collaboration and testing.</li>
+    </ul>
+
+    <div class="job-title">Intern – Softpro India Pvt. Ltd.</div>
+    <div class="job-date">June 2024 – July 2024</div>
+    <ul>
+      <li>Created responsive web apps using HTML, CSS, JS, and Java (Spring Boot).</li>
+      <li>Connected SQL Server backend and integrated external APIs.</li>
+    </ul>
+
+    <h2>Projects</h2>
+    <p class="project-title">Taxi Booking and Pickup Services</p>
+    <ul>
+      <li>Developed full-stack taxi booking app with Java and Spring Boot.</li>
+      <li class="tech-used">Tech: Java, Spring Boot, HTML, CSS, JS, SQL Server</li>
+    </ul>
+
+    <p class="project-title">NOU e-Gyan Portal</p>
+    <ul>
+      <li>Built e-learning portal with login system and SMS integration.</li>
+      <li class="tech-used">Tech: HTML, CSS, JavaScript, Java, SQL</li>
+    </ul>
+
+    <p class="project-title">Other Projects</p>
+    <ul>
+      <li><strong>Portfolio Website:</strong> Showcased skills using HTML/CSS/JS</li>
+      <li><strong>Quiz Website:</strong> Dynamic JS-based quiz platform</li>
+      <li><strong>Text to Voice Converter:</strong> JavaScript-based speech tool</li>
+      <li><strong>BMI Calculator:</strong> Health tracker with real-time input</li>
+    </ul>
+
+    <h2>Education</h2>
+    <p class="education-detail">Bachelor of Computer Applications – University of Lucknow</p>
+    <p>June 2022 – Present | Avg. Percentage: 81.6%</p>
+  </div>
+</body>
 </html>
