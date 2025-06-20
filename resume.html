@@ -1,239 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume - Riya Vishwakarma</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        /* Print Styles */
-        @media print {
-            body {
-                background: #fff;
-                color: #000;
-                font-size: 10pt;
-                line-height: 1.2;
-            }
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Personal Profile Page of Sanjay">
+        <title>Riya's Profile</title>
+        <link rel="icon" href="img/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="script.js" defer></script>
+    </head>
 
-            /* Hide elements not meant for printing */
-            .print-btn-container, #toggleTheme {
-                display: none;
-            }
-
-            /* Adjust container layout for A4 size */
-            .resume-container {
-                width: 100%;
-                margin: 0;
-                padding: 0;
-                page-break-before: auto;
-                page-break-after: auto;
-            }
-
-            /* Standardize fonts and colors */
-            .resume-container h1, .resume-container h2, .resume-container h3, .resume-container p, .resume-container ul, .resume-container li {
-                color: #000;
-                background: none;
-                font-weight: normal;
-                margin: 0;
-                padding: 0;
-            }
-
-            /* Adjust section margins and font sizes for compact layout */
-            .row {
-                margin-bottom: 6px;
-                padding: 0;
-            }
-
-            .header h1 {
-                font-size: 16pt;
-                margin-bottom: 5px;
-            }
-
-            .header h3 {
-                font-size: 12pt;
-                margin-bottom: 10px;
-            }
-
-            .row h2 {
-                font-size: 12pt;
-                margin-bottom: 4px;
-                border-bottom: 1px solid #ddd;
-                padding-bottom: 3px;
-            }
-
-            .skills-list {
-                font-size: 10pt;
-                line-height: 1.2;
-                margin-left: 20px;
-            }
-
-            /* Reduce padding and margin in list items */
-            .project, .job {
-                font-size: 10pt;
-                line-height: 1.2;
-            }
-
-            .footer {
-                margin-top: 10px;
-                font-size: 10pt;
-            }
-        }
-
-        /* Basic Styles for Web View */
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9f9f9;
-            margin: 0;
-            padding: 0;
-        }
-
-        .print-btn-container {
-            text-align: right;
-            margin: 10px;
-        }
-
-        .resume-container {
-            background: #fff;
-            padding: 20px;
-            max-width: 800px;
-            margin: 20px auto;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .header {
-            text-align: center;
-            margin-bottom: 15px;
-        }
-
-        .social-links a {
-            margin: 0 5px;
-            font-size: 1.2em;
-        }
-
-        .row h2 {
-            font-size: 1.2em;
-            margin-bottom: 8px;
-            border-bottom: 1px solid #ddd;
-            padding-bottom: 5px;
-        }
-        .link-remover{
-          text-decoration: none;
-          color: black;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 15px;
-        }
-
-        #printButton {
-            font-size: 1.5em;
-        }
-    </style>
-</head>
-<body>
-    <!-- Print Icon Outside of Main Content -->
-    <div class="print-btn-container">
-        <a id="printButton" href="#" title="Print Resume">
-            <i class="fas fa-print"></i>
-        </a>
-    </div>
-
-    <div class="resume-container" id="resumeContent">
-        <header class="header">
-            <h1>Riya Vishwakarma</h1>
-            <h3>Computer Science Engineer | Full Stack Developer</h3>
-            
-            <!-- LinkedIn and GitHub Icons as Links -->
-            <div class="social-links">
-             [<strong>Note:</strong> Click the icons below to view my professional profile, projects etc.] <br>
-                <a href="https://www.linkedin.com/in/riya-vishwakarma-811585322" target="_blank" title="LinkedIn">
-                    <i class="fa-brands fa-linkedin" style="color: #000000;"></i>
-                </a>
-                <a href="https://github.com/Riyavishwakarma24" target="_blank" title="GitHub">
-                    <i class="fab fa-github" style="color: black;"></i>
-                </a>
+    <body>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <h2>Riya Vishwakarma</h2>&nbsp&nbsp&nbsp
+                <h4>From India</h4>
+                <div class="nav-toggle"><i class="fas fa-bars"></i></div>
             </div>
+            <div class="nav-menu">           
+            <!--<a href="index.html">Home</a>
+                <a href="contact.html">Contact Me</a> -->
+                <a href="img/Riya Vishwakarma - Resume.pdf" class="resume-button" download>Download Resume</a>
+                <div id="dark-mode-toggle" class="dark-mode-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </div>
+        </nav>
+
+        <header>
+            <img src="img/riya.webp" alt="Riya's pic">
+            <h1>Hello, I am Riya, a <span class="about-me"></span></h1>
+            <p>Proactive and results-driven full-stack developer with expertise in building and optimizing web applications using HTML, CSS,
+                JavaScript, and Java. Demonstrated ability to design responsive interfaces, implement backend functionality, and collaborate 
+               team-based projects to achieve technical excellence.</p>
         </header>
 
-        <section class="info-section">
-            <div class="row">
-                <h2>Contact Information</h2>
-                <p><strong><a class="link-remover" href="mailto:riiyavishwakarma24@gmail.com"><i class="fa-solid fa-envelope-open-text"></i> riiyavishwakarma24@gmail.com</a></strong></p>
-                <p><strong><a class="link-remover" href="tel:+919369735941"><i class="fa-solid fa-phone"></i> +91 9369735941</a></strong></p>
-                <p><strong><a class="link-remover" href="https://www.google.com/maps/@26.8809621,81.0397476,17z?entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i> &nbsp; Lucknow, Uttar Pradesh, India</a></strong></p>
-            </div>
-<br>
-            <div class="row">
-                <h2>Professional Summary</h2>
-                <p>Aspiring software developer and current Bachelor of Computer Applications (BCA) student with a strong foundation in programming, web development. Skilled in languages like Java with hands-on experience in building responsive web applications using HTML, CSS, and JavaScript. Actively seeking internship opportunities to apply my academic knowledge in a professional setting and to expand my technical expertise.</p>
-            </div>
-<br>
-            <div class="row">
-                <h2>Skills</h2>
-                <ul type="none" class="skills-list">
-                    <li>HTML5, CSS3, JavaScript</li>
-                    <li>Java</li>
-                    <li>C</li>
-                    <li>Responsive Web Design</li>
-                    <li>Git & GitHub</li>
-                </ul>
-            </div>
-<br>
-            <div class="row">
-                <h2>Education</h2>
-                <p><strong>Lucknow University</strong><br>Bachelor of Computer Applications (2022-Present)</p>
-            </div>
-<br>
-            <div class="row">
-                <h2>Projects</h2>
-                <div class="project">
-                    <b>1.Personal Portfolio</b>
-                    <p>Created a personal portfolio using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
-                </div>
-                <br>
-                <div class="project">
-                    <b>2.NOU e-Gyan Portal clone</b>
-                    <p>Developed a functional clone of NOU e-gyan with responsive design and user authentication.
-                        <br>Technologies used:HTML,CSS,JavaScript,Java(for Backend) and SMS API.
-                    </p>
-                </div>
-                <br>
-                <div class="project">
-                    <b>3.Quiz Website</b>
-                    <p>This Project is a simple Quiz Website using HTML,CSS and JavaScript.</p>
-                </div>
-                <br>
-                <div class="project">
-                    <b>4.Text to Voice Converter </b>
-                    <p>Developed a dynamic Text  converter website using web technologies HTML,CSS and JavaScript.</p>
-                </div>
-            </div>
-<br>
-            <div class="row">
-                <h2><b>Experience</b></h2>
-                <!--<div class="job">
-                    <b>1.Web Development Intern</b>
-                    <p>Skill Chase | Aug 2024 - Oct 2024<br>At Skill Chase, we are passionate about delivering cutting-edge digital solutions to our clients. We’re looking for a highly motivated and enthusiastic Web Developer Intern to join our team. This is a great opportunity to work in a dynamic environment, grow your skills, and contribute to real-world projects</p> <br>
-                </div> -->
-                <div class="job">
-                  <b>1.Web Development Intern</b>
-                    <p>Softpro India | July 2024 - August 2024<br>Enhanced user interfaces and developed responsive websites.</p>
-                </div>
-            </div>
-        </section>
+        <div class="content-container">
 
-        
-    </div>
-
+            <section>
+                <h2>My Technical Skills</h2>
+                <div class="skills-list">
+                    <ul class="skills-list">
+                        <li>Web Development</li>
+                        <li>Advance Java</li>
+                        <li>Responsive Web Design</li>
+                        <li>Git & GitHub</li>
+                    </ul>
+                </div>
+            </section>
+            <hr>
     
+            <section class="horizontal-scroll">
+                <div class="icon-container">
+                    <img src="img/1.png" alt="Icon 1">
+                    <img src="img/2.png" alt="Icon 2">
+                    <img src="img/3.png" alt="Icon 3">
+                    <img src="img/4.png" alt="Icon 4">
+                    <img src="img/5.png" alt="Icon 5">
+                    <img src="img/6.png" alt="Icon 6">
+                    <img src="img/7.jpg" alt="Icon 7">
+                    <img src="img/8.png" alt="Icon 8">
+                    <img src="img/apache.jpg" alt="icon 9">
+                </div>
+            </section>
+            <hr>
 
-    <script>
-        // Print Functionality
-        document.getElementById('printButton').addEventListener('click', function(event) {
-            event.preventDefault();
-            window.print();
-        });
-    </script>
-</body>
+            <section id="programming-languages">
+                <h2>Programming Languages</h2>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress-bar" data-progress="60"></div>
+                </div>
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar" data-progress="90"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar" data-progress="70"></div>
+                </div>
+            </section>
+            <hr>      
+
+            <section>
+                <h2>My Projects</h2>
+                <p>Take a look at some of my works.</p>
+                <section id="projects">
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/egyan.jpg" alt="Project 1">
+                            <h3>Nou e-Gyan Portal </h3>
+                            <p>Developed a functional NOU e-gyan with responsive design and user authentication.</p>
+                            <a href="https://riyavishwakarma24.github.io/Nou-e-Gyan_Clone/" class="btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/quizz.jpg" alt="Project 1">
+                            <h3>Quiz Website</h3>
+                            <p>The quiz tests users' knowledge of various web technologies such as HTML,CSS & JavaScript</p>
+                            <a href="https://riyavishwakarma24.github.io/Quiz_App/" class="btn">Know More</a>
+                        </div>
+                    </div>
+                    <div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/bmi1.png" alt="Project 1">
+                            <h3>BMI Calculator </h3>
+                            <p>A BMI calculator web app that determines Body Mass Index based on user input</p>
+                            <a href=" https://riyavishwakarma24.github.io/BMI_Calculator/" class="btn">Know More</a>
+                        </div>
+                    </div>   
+                   <!--<div class="project-thumbnail">
+                        <div class="thumbnail-content">
+                            <img src="img/text.png" alt="Project 1">
+                            <h3>Text to Voice Converter</h3>
+                            <p>A web app that converts text into speech using HTML, CSS, and JavaScript.</p>
+                            <a href=" https://riyavishwakarma24.github.io/Text_Converter/" class="btn">Know More</a>
+                        </div>
+                    </div> -->                
+                </section>
+                <hr>
+                <section id="experience">
+                    <h2>My Experience</h2>
+                    <p><span>July 2024 – August 2024</span><br>Web Development Trainee at Softpro India (Advanced Java)</p><br>
+<p><span>February 2025 – May 2025</span><br>Web Development Trainee at Pantech.ai (Web Development)</p>
+
+                </section>
+                <hr>
+    
+            
+            <section>
+                <h2>Contact Me</h2>
+                <form name="submit-to-google-sheet">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email">
+                    </div>
+            
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                    </div>
+            
+                    <button type="submit">Send Message</button>                
+                </form>
+            </section>
+            <hr>
+
+            <section>
+                <h2>Contact Information</h2>
+                <p>Let's connect!</p>
+                <a href="mailto:riiyavishwakarma24@gmail.com" class="icon-link email-icon"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/riya-vishwakarma-811585322" class="icon-link linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Riyavishwakarma24" class="icon-link github-icon">
+                    <i class="fa-brands fa-github"></i></a>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2025 Copyright. Built by Riya Vishwakarma.</p>
+        </footer>
+
+
+        <!-- Project Information Modal -->
+        <!-- Project Information Modal -->
+       <!-- <div id="projectModal1" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project Title 1</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
+                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/1.png" alt="Project Image 1">
+                                    <img src="img/2.png" alt="Project Image 2">
+                                    <img src="img/3.png" alt="Project Image 3">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Utilizes ROS for managing robot software components.</li>
+                                <li>Incorporates machine learning for traffic sign recognition.</li>
+                                <li>Features real-time obstacle detection using LIDAR.</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div id="projectModal2" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project Title 2</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
+                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/1.png" alt="Project Image 4">
+                                    <img src="img/1.png" alt="Project Image 5">
+                                    <img src="img/1.png" alt="Project Image 6">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Utilizes ROS for managing robot software components.</li>
+                                <li>Incorporates machine learning for traffic sign recognition.</li>
+                                <li>Features real-time obstacle detection using LIDAR.</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div id="projectModal3" class="modal" style="display: none;">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Project Title 3</h2>
+                <hr>
+                <div class="modal-body">
+                    <div class="modal-row">
+                        <div class="column description">
+                            <p>Short Project Overview: This project is a comprehensive exploration...</p>
+                            <a href="https://github.com/yourgithubrepo" target="_blank" class="github-link"><i class="fab fa-github"></i></a>
+                        </div>
+                        <div class="column image-carousel">
+                            <div class="carousel-container">
+                                <div class="carousel-slide">
+                                    <img src="img/3.png" alt="Project Image 7">
+                                    <img src="img/2.png" alt="Project Image 8">
+                                    <img src="img/1.png" alt="Project Image 9">
+                                </div>
+                                <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+                                <a class="next" onclick="moveSlide(1)">&#10095;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-row">
+                        <div class="column">
+                            <h3>Project Details</h3>
+                            <ul>
+                                <li>Utilizes ROS for managing robot software components.</li>
+                                <li>Incorporates machine learning for traffic sign recognition.</li>
+                                <li>Features real-time obstacle detection using LIDAR.</li>
+                            </ul>
+                        </div>
+                        <div class="column">
+                            <h3>Project Video</h3>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/yourvideoid" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  -->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycby_rf2A4sqZl7Wpzp0jVnpM0ew2AdL1mq5MvAhXVffoQFtFSds2Gjzy5bXPiZUNTjwAEg/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg=document.getElementById(msg)
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                  msg.innerHTML="Message sent successfully"
+                  setTimeout(function(){
+                    msg.innerHTML=""
+                  },5000) 
+                  form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+    </body>
 </html>
