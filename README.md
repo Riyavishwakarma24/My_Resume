@@ -33,7 +33,7 @@ Completed a web development internship focused on building interactive and respo
 # 📫 How to Reach Me
 * Email: riiyavishwakarma24@gmail.com
 * LinkedIn: https://www.linkedin.com/in/riya-vishwakarma-811585322
-* Portfolio: [Link to personal website or portfolio]
+* Portfolio: https://riyavishwakarma24.github.io/My_Portfolio/
 
 
 
